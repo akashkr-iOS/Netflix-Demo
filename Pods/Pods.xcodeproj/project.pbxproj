@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		10ACB2F54F3FFC1F650D8482BBF1E294 /* SmartPush-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BEC6DAC2B03C0CC758573619C29F8BFA /* Build configuration list for PBXAggregateTarget "SmartPush-iOS-SDK" */;
+			buildPhases = (
+				04AFF7CC4FF6AED6A32E0BE116EDBA81 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "SmartPush-iOS-SDK";
+		};
+		89AFD45091CBA40FE525239873BCA73D /* Smartech-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 13153A4F8F65E1FE44164F45E01A9963 /* Build configuration list for PBXAggregateTarget "Smartech-iOS-SDK" */;
+			buildPhases = (
+				9133EA0F2ADDFE325CD08F3C84BC0856 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "Smartech-iOS-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E7306936C106EE46CB5CD6E30123AD3 /* Pods-SmartechNCE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFBCA0AD0535E9E6F02657FD288435 /* Pods-SmartechNCE-dummy.m */; };
+		138326F62A86B336ED1C1A57FD340493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1D3235AD963BFAEF7F176B1708F9EA0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		22F9D54A33F39BE4BEDC9DD18D16C606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		58F76FBB389DC603573B7FC0D7479B12 /* Pods-SmartechNCE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C54216E2DA0BF105D13CEBBE74D9850 /* Pods-SmartechNCE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC74E5BF8041188182169059BB4BB66 /* Pods-Netflix Clone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B75EBD2B212FA9D86F57DDD0F203D9 /* Pods-Netflix Clone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78B31631718CFAC86DAB077A1F31E35 /* Pods-SmartechNSE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BF28AF91F6B69DC9E2279001B906D5 /* Pods-SmartechNSE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D21F0879D3AD83A6D4167EB199FB56 /* Pods-SmartechNSE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE6E758530F29212F4E5D0784F2627 /* Pods-SmartechNSE-dummy.m */; };
+		FC622552EC529688224A3668957C293F /* Pods-Netflix Clone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0515A83903A32A2AF8E0F95F2BEDA /* Pods-Netflix Clone-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48FC6E2356CB56CA9E53478F7DB89DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AFD45091CBA40FE525239873BCA73D;
+			remoteInfo = "Smartech-iOS-SDK";
+		};
+		6BE7B3410AC8009359F95C66A582F270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10ACB2F54F3FFC1F650D8482BBF1E294;
+			remoteInfo = "SmartPush-iOS-SDK";
+		};
+		8529C2834E9D2AD042B40CD657FCBB65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AFD45091CBA40FE525239873BCA73D;
+			remoteInfo = "Smartech-iOS-SDK";
+		};
+		950976C733579A83B71F67771EE752FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AFD45091CBA40FE525239873BCA73D;
+			remoteInfo = "Smartech-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EC78E5E60F37E6E01DA7F5116188E4E /* Pods-SmartechNSE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartechNSE.modulemap"; sourceTree = "<group>"; };
+		118C65806C98E55A606F22779123AB53 /* Pods-Netflix Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netflix Clone.release.xcconfig"; sourceTree = "<group>"; };
+		160A825797DA3C1A7E4B84DFB47C7AD5 /* Pods-SmartechNCE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartechNCE.debug.xcconfig"; sourceTree = "<group>"; };
+		17DAC97684CA223BF43487CFA4631670 /* SmartPush-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SmartPush-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		19123E591F412E7299B92A0826467F03 /* Pods-Netflix Clone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netflix Clone-Info.plist"; sourceTree = "<group>"; };
+		199C82A48933573584879795E31CEACB /* Smartech-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Smartech-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		25CA28E22591BF3C3597D07058281AD2 /* Pods-SmartechNSE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartechNSE.debug.xcconfig"; sourceTree = "<group>"; };
+		2C54216E2DA0BF105D13CEBBE74D9850 /* Pods-SmartechNCE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartechNCE-umbrella.h"; sourceTree = "<group>"; };
+		37FEB88D3EDB049300B26F9B1430B386 /* Pods-SmartechNCE-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartechNCE-Info.plist"; sourceTree = "<group>"; };
+		47E4FF0A6E5D7EC91645BBEB0EC8FCAF /* Smartech-iOS-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Smartech-iOS-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		50BF28AF91F6B69DC9E2279001B906D5 /* Pods-SmartechNSE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartechNSE-umbrella.h"; sourceTree = "<group>"; };
+		511F88451C5028395C3A0F5291B845FA /* SmartPush.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SmartPush.xcframework; path = Frameworks/SmartPush/SmartPush.xcframework; sourceTree = "<group>"; };
+		58AE6E758530F29212F4E5D0784F2627 /* Pods-SmartechNSE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartechNSE-dummy.m"; sourceTree = "<group>"; };
+		5B2A3C0C632E86E0280BB0175EAAF6DF /* Pods-SmartechNSE-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartechNSE-acknowledgements.plist"; sourceTree = "<group>"; };
+		6153AF103127D181650EAADC2F8F5FFB /* Pods-Netflix Clone */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Netflix Clone"; path = Pods_Netflix_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E07E4B693791B80A281D1A32FDBAE7 /* SmartPush-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SmartPush-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		67D2A9BEA53832F6BE598794CCC5510F /* Pods-Netflix Clone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Netflix Clone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69CFBCA0AD0535E9E6F02657FD288435 /* Pods-SmartechNCE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartechNCE-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A731CFBFCDC609ECF1231534A3CBC1E7 /* Pods-SmartechNCE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartechNCE.release.xcconfig"; sourceTree = "<group>"; };
+		B08C6D8DA9083526329AFE8F2D6709BA /* Pods-Netflix Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Netflix Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E97F71FB8A6DE92E9E1B70C07C7635 /* Pods-SmartechNSE */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SmartechNSE"; path = Pods_SmartechNSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B750E38E34A32F6C5329695980CD6A55 /* SmartPush-iOS-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SmartPush-iOS-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		BE42337F94279ADC1AD338E30FA8C863 /* Pods-SmartechNSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartechNSE.release.xcconfig"; sourceTree = "<group>"; };
+		C79D5BCC0A09FDAFBD90277D31ECDE14 /* Pods-Netflix Clone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Netflix Clone-frameworks.sh"; sourceTree = "<group>"; };
+		C9DDFC7FF5B196E752F09621278AE6B9 /* Pods-SmartechNCE */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SmartechNCE"; path = Pods_SmartechNCE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B75EBD2B212FA9D86F57DDD0F203D9 /* Pods-Netflix Clone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Netflix Clone-umbrella.h"; sourceTree = "<group>"; };
+		DBCBB15BC928ED160625461C89E113BA /* Pods-Netflix Clone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Netflix Clone.modulemap"; sourceTree = "<group>"; };
+		DE5B1EAF0FA06101C3A55606D98B247E /* Pods-SmartechNSE-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartechNSE-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E477695D2F82FB28C3AAFDB72F16E66E /* Pods-SmartechNCE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartechNCE.modulemap"; sourceTree = "<group>"; };
+		E8E598AB6B7468169D64A4F1365830E5 /* Pods-SmartechNCE-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartechNCE-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2B0515A83903A32A2AF8E0F95F2BEDA /* Pods-Netflix Clone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Netflix Clone-dummy.m"; sourceTree = "<group>"; };
+		F51777ED92491930D2DFF2BD0578646D /* Pods-SmartechNCE-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartechNCE-acknowledgements.plist"; sourceTree = "<group>"; };
+		F58FB7C4F12AE63C136DB09933AA25E3 /* Smartech-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Smartech-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		F5C8E27FC7B4E17F1FEF9A8D19085846 /* Smartech.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Smartech.xcframework; path = Frameworks/Smartech/Smartech.xcframework; sourceTree = "<group>"; };
+		F8B641FCA939DD96DA50A93FB1DAD072 /* Pods-SmartechNSE-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartechNSE-Info.plist"; sourceTree = "<group>"; };
+		FA47E21648BFE8261CC2E2F25A57C320 /* Pods-Netflix Clone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Netflix Clone-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		511236292C94E7B6EBBE6D6A7455696D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138326F62A86B336ED1C1A57FD340493 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1BFF79C485CE7651C2B7EE81F7CF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3235AD963BFAEF7F176B1708F9EA0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D176DDAA894B121E477F76CEE66065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F9D54A33F39BE4BEDC9DD18D16C606 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A838799F3BE7D67069611AF2D3D029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8E27FC7B4E17F1FEF9A8D19085846 /* Smartech.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		184465445A44ED4244D7E569E0E882F5 /* Smartech-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				15A838799F3BE7D67069611AF2D3D029 /* Frameworks */,
+				38C3A268B5EDB9EAF48B704C10EC0B83 /* Support Files */,
+			);
+			name = "Smartech-iOS-SDK";
+			path = "Smartech-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		2A47CA1AA4268D37E6A53F10246CCD21 /* Pods-SmartechNCE */ = {
+			isa = PBXGroup;
+			children = (
+				E477695D2F82FB28C3AAFDB72F16E66E /* Pods-SmartechNCE.modulemap */,
+				E8E598AB6B7468169D64A4F1365830E5 /* Pods-SmartechNCE-acknowledgements.markdown */,
+				F51777ED92491930D2DFF2BD0578646D /* Pods-SmartechNCE-acknowledgements.plist */,
+				69CFBCA0AD0535E9E6F02657FD288435 /* Pods-SmartechNCE-dummy.m */,
+				37FEB88D3EDB049300B26F9B1430B386 /* Pods-SmartechNCE-Info.plist */,
+				2C54216E2DA0BF105D13CEBBE74D9850 /* Pods-SmartechNCE-umbrella.h */,
+				160A825797DA3C1A7E4B84DFB47C7AD5 /* Pods-SmartechNCE.debug.xcconfig */,
+				A731CFBFCDC609ECF1231534A3CBC1E7 /* Pods-SmartechNCE.release.xcconfig */,
+			);
+			name = "Pods-SmartechNCE";
+			path = "Target Support Files/Pods-SmartechNCE";
+			sourceTree = "<group>";
+		};
+		3300BF1108B641E9B6C7B06C8BF45370 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				511F88451C5028395C3A0F5291B845FA /* SmartPush.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33F557468753B4221CE8992E460C34C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B750E38E34A32F6C5329695980CD6A55 /* SmartPush-iOS-SDK-xcframeworks.sh */,
+				64E07E4B693791B80A281D1A32FDBAE7 /* SmartPush-iOS-SDK.debug.xcconfig */,
+				17DAC97684CA223BF43487CFA4631670 /* SmartPush-iOS-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmartPush-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		38C3A268B5EDB9EAF48B704C10EC0B83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47E4FF0A6E5D7EC91645BBEB0EC8FCAF /* Smartech-iOS-SDK-xcframeworks.sh */,
+				199C82A48933573584879795E31CEACB /* Smartech-iOS-SDK.debug.xcconfig */,
+				F58FB7C4F12AE63C136DB09933AA25E3 /* Smartech-iOS-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Smartech-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		38CB0FF84C45F355CDF1BE0D27A238EF /* Pods-SmartechNSE */ = {
+			isa = PBXGroup;
+			children = (
+				0EC78E5E60F37E6E01DA7F5116188E4E /* Pods-SmartechNSE.modulemap */,
+				DE5B1EAF0FA06101C3A55606D98B247E /* Pods-SmartechNSE-acknowledgements.markdown */,
+				5B2A3C0C632E86E0280BB0175EAAF6DF /* Pods-SmartechNSE-acknowledgements.plist */,
+				58AE6E758530F29212F4E5D0784F2627 /* Pods-SmartechNSE-dummy.m */,
+				F8B641FCA939DD96DA50A93FB1DAD072 /* Pods-SmartechNSE-Info.plist */,
+				50BF28AF91F6B69DC9E2279001B906D5 /* Pods-SmartechNSE-umbrella.h */,
+				25CA28E22591BF3C3597D07058281AD2 /* Pods-SmartechNSE.debug.xcconfig */,
+				BE42337F94279ADC1AD338E30FA8C863 /* Pods-SmartechNSE.release.xcconfig */,
+			);
+			name = "Pods-SmartechNSE";
+			path = "Target Support Files/Pods-SmartechNSE";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A42755E386BA2FBE949D1A340943720 /* Pods-Netflix Clone */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBB15BC928ED160625461C89E113BA /* Pods-Netflix Clone.modulemap */,
+				67D2A9BEA53832F6BE598794CCC5510F /* Pods-Netflix Clone-acknowledgements.markdown */,
+				FA47E21648BFE8261CC2E2F25A57C320 /* Pods-Netflix Clone-acknowledgements.plist */,
+				F2B0515A83903A32A2AF8E0F95F2BEDA /* Pods-Netflix Clone-dummy.m */,
+				C79D5BCC0A09FDAFBD90277D31ECDE14 /* Pods-Netflix Clone-frameworks.sh */,
+				19123E591F412E7299B92A0826467F03 /* Pods-Netflix Clone-Info.plist */,
+				D5B75EBD2B212FA9D86F57DDD0F203D9 /* Pods-Netflix Clone-umbrella.h */,
+				B08C6D8DA9083526329AFE8F2D6709BA /* Pods-Netflix Clone.debug.xcconfig */,
+				118C65806C98E55A606F22779123AB53 /* Pods-Netflix Clone.release.xcconfig */,
+			);
+			name = "Pods-Netflix Clone";
+			path = "Target Support Files/Pods-Netflix Clone";
+			sourceTree = "<group>";
+		};
+		B350CF51442CB1117CFA094115557738 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A42755E386BA2FBE949D1A340943720 /* Pods-Netflix Clone */,
+				2A47CA1AA4268D37E6A53F10246CCD21 /* Pods-SmartechNCE */,
+				38CB0FF84C45F355CDF1BE0D27A238EF /* Pods-SmartechNSE */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1CF293E7331B6893E84766DC25E7F0E /* SmartPush-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3300BF1108B641E9B6C7B06C8BF45370 /* Frameworks */,
+				33F557468753B4221CE8992E460C34C6 /* Support Files */,
+			);
+			name = "SmartPush-iOS-SDK";
+			path = "SmartPush-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E8E57B73C04BC7594EC7A04959555FA7 /* Pods */,
+				DAF2AE41C52F5CE220EAE7ED8E8504D9 /* Products */,
+				B350CF51442CB1117CFA094115557738 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF2AE41C52F5CE220EAE7ED8E8504D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6153AF103127D181650EAADC2F8F5FFB /* Pods-Netflix Clone */,
+				C9DDFC7FF5B196E752F09621278AE6B9 /* Pods-SmartechNCE */,
+				B2E97F71FB8A6DE92E9E1B70C07C7635 /* Pods-SmartechNSE */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E57B73C04BC7594EC7A04959555FA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				184465445A44ED4244D7E569E0E882F5 /* Smartech-iOS-SDK */,
+				C1CF293E7331B6893E84766DC25E7F0E /* SmartPush-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		321A885A59C3457CBC501B5B6FD007FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC74E5BF8041188182169059BB4BB66 /* Pods-Netflix Clone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986537C0D0BB2AA324BB78829B472D0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F76FBB389DC603573B7FC0D7479B12 /* Pods-SmartechNCE-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F742905D3E9C5208C8565FBADD3549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B31631718CFAC86DAB077A1F31E35 /* Pods-SmartechNSE-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		044768DED7E9A9305F1906D0B19BF4CB /* Pods-Netflix Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA14CB40FFFB0962154628188F466D0C /* Build configuration list for PBXNativeTarget "Pods-Netflix Clone" */;
+			buildPhases = (
+				321A885A59C3457CBC501B5B6FD007FD /* Headers */,
+				AE5934F2AE372A9B0D8B6E30389ABFAB /* Sources */,
+				80D176DDAA894B121E477F76CEE66065 /* Frameworks */,
+				435B4E4F6F2AE02B3E85D7FD694A8BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97FD2ABC971ED9E17CE2101EFDA82A08 /* PBXTargetDependency */,
+				27316AFC89D4EB895BB8D66672F62C25 /* PBXTargetDependency */,
+			);
+			name = "Pods-Netflix Clone";
+			productName = Pods_Netflix_Clone;
+			productReference = 6153AF103127D181650EAADC2F8F5FFB /* Pods-Netflix Clone */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E71A7795ED36FDA5A929BE1B12BB220 /* Pods-SmartechNSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583C8E17132725DC28CE110CEE2D7A92 /* Build configuration list for PBXNativeTarget "Pods-SmartechNSE" */;
+			buildPhases = (
+				E4F742905D3E9C5208C8565FBADD3549 /* Headers */,
+				48A253371D69AB934CCDCDB918EF9AB4 /* Sources */,
+				6B1BFF79C485CE7651C2B7EE81F7CF35 /* Frameworks */,
+				1E060D063CD48DFB68EF6E65189A8D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6387022D8E83FC9DFD150983B34C89EF /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartechNSE";
+			productName = Pods_SmartechNSE;
+			productReference = B2E97F71FB8A6DE92E9E1B70C07C7635 /* Pods-SmartechNSE */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCD9B4EF3FC90CC7F31F3D3589756B77 /* Pods-SmartechNCE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011193B7F125062AE99E5C6E9D97C953 /* Build configuration list for PBXNativeTarget "Pods-SmartechNCE" */;
+			buildPhases = (
+				986537C0D0BB2AA324BB78829B472D0A /* Headers */,
+				81E999FEE53C535632B84E87922F634C /* Sources */,
+				511236292C94E7B6EBBE6D6A7455696D /* Frameworks */,
+				C4F9AF14A0FD03E0BB87DEBD3FB3E416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C0D7D7681463BAEE9BCA922585E6C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartechNCE";
+			productName = Pods_SmartechNCE;
+			productReference = C9DDFC7FF5B196E752F09621278AE6B9 /* Pods-SmartechNCE */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DAF2AE41C52F5CE220EAE7ED8E8504D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044768DED7E9A9305F1906D0B19BF4CB /* Pods-Netflix Clone */,
+				FCD9B4EF3FC90CC7F31F3D3589756B77 /* Pods-SmartechNCE */,
+				0E71A7795ED36FDA5A929BE1B12BB220 /* Pods-SmartechNSE */,
+				89AFD45091CBA40FE525239873BCA73D /* Smartech-iOS-SDK */,
+				10ACB2F54F3FFC1F650D8482BBF1E294 /* SmartPush-iOS-SDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E060D063CD48DFB68EF6E65189A8D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435B4E4F6F2AE02B3E85D7FD694A8BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F9AF14A0FD03E0BB87DEBD3FB3E416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04AFF7CC4FF6AED6A32E0BE116EDBA81 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SmartPush-iOS-SDK/SmartPush-iOS-SDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SmartPush-iOS-SDK/SmartPush-iOS-SDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SmartPush-iOS-SDK/SmartPush-iOS-SDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9133EA0F2ADDFE325CD08F3C84BC0856 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Smartech-iOS-SDK/Smartech-iOS-SDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Smartech-iOS-SDK/Smartech-iOS-SDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Smartech-iOS-SDK/Smartech-iOS-SDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A253371D69AB934CCDCDB918EF9AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D21F0879D3AD83A6D4167EB199FB56 /* Pods-SmartechNSE-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E999FEE53C535632B84E87922F634C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7306936C106EE46CB5CD6E30123AD3 /* Pods-SmartechNCE-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5934F2AE372A9B0D8B6E30389ABFAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC622552EC529688224A3668957C293F /* Pods-Netflix Clone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27316AFC89D4EB895BB8D66672F62C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Smartech-iOS-SDK";
+			target = 89AFD45091CBA40FE525239873BCA73D /* Smartech-iOS-SDK */;
+			targetProxy = 950976C733579A83B71F67771EE752FA /* PBXContainerItemProxy */;
+		};
+		6387022D8E83FC9DFD150983B34C89EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Smartech-iOS-SDK";
+			target = 89AFD45091CBA40FE525239873BCA73D /* Smartech-iOS-SDK */;
+			targetProxy = 8529C2834E9D2AD042B40CD657FCBB65 /* PBXContainerItemProxy */;
+		};
+		80C0D7D7681463BAEE9BCA922585E6C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Smartech-iOS-SDK";
+			target = 89AFD45091CBA40FE525239873BCA73D /* Smartech-iOS-SDK */;
+			targetProxy = 48FC6E2356CB56CA9E53478F7DB89DC7 /* PBXContainerItemProxy */;
+		};
+		97FD2ABC971ED9E17CE2101EFDA82A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SmartPush-iOS-SDK";
+			target = 10ACB2F54F3FFC1F650D8482BBF1E294 /* SmartPush-iOS-SDK */;
+			targetProxy = 6BE7B3410AC8009359F95C66A582F270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D62714DC6D4C8AA5FEF030E60CBAE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08C6D8DA9083526329AFE8F2D6709BA /* Pods-Netflix Clone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		181264E1C085F80AD1CF01FFB9F6919B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199C82A48933573584879795E31CEACB /* Smartech-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A0A98A0BAB73C1BD01C1C0FAA370776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE42337F94279ADC1AD338E30FA8C863 /* Pods-SmartechNSE.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartechNSE/Pods-SmartechNSE-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartechNSE/Pods-SmartechNSE.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6EFA8709474A09FC5068C2743F49209B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DAC97684CA223BF43487CFA4631670 /* SmartPush-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EDBF92E8A7C92181F75C42C07193016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E07E4B693791B80A281D1A32FDBAE7 /* SmartPush-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E8B935CB950D43F0B274341053CDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CA28E22591BF3C3597D07058281AD2 /* Pods-SmartechNSE.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartechNSE/Pods-SmartechNSE-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartechNSE/Pods-SmartechNSE.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E33FBB528EA0241AA56EE756C6C53A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160A825797DA3C1A7E4B84DFB47C7AD5 /* Pods-SmartechNCE.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartechNCE/Pods-SmartechNCE-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartechNCE/Pods-SmartechNCE.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F64717215739C1EB93BF38BF1931297C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58FB7C4F12AE63C136DB09933AA25E3 /* Smartech-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA6351613F173794A72957CC53B9591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A731CFBFCDC609ECF1231534A3CBC1E7 /* Pods-SmartechNCE.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartechNCE/Pods-SmartechNCE-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartechNCE/Pods-SmartechNCE.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF64820B4E7820C3FEEC0BEE34CA1449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118C65806C98E55A606F22779123AB53 /* Pods-Netflix Clone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011193B7F125062AE99E5C6E9D97C953 /* Build configuration list for PBXNativeTarget "Pods-SmartechNCE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33FBB528EA0241AA56EE756C6C53A97 /* Debug */,
+				FCA6351613F173794A72957CC53B9591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13153A4F8F65E1FE44164F45E01A9963 /* Build configuration list for PBXAggregateTarget "Smartech-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181264E1C085F80AD1CF01FFB9F6919B /* Debug */,
+				F64717215739C1EB93BF38BF1931297C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583C8E17132725DC28CE110CEE2D7A92 /* Build configuration list for PBXNativeTarget "Pods-SmartechNSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E8B935CB950D43F0B274341053CDC4 /* Debug */,
+				5A0A98A0BAB73C1BD01C1C0FAA370776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA14CB40FFFB0962154628188F466D0C /* Build configuration list for PBXNativeTarget "Pods-Netflix Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D62714DC6D4C8AA5FEF030E60CBAE43 /* Debug */,
+				FF64820B4E7820C3FEEC0BEE34CA1449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC6DAC2B03C0CC758573619C29F8BFA /* Build configuration list for PBXAggregateTarget "SmartPush-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDBF92E8A7C92181F75C42C07193016 /* Debug */,
+				6EFA8709474A09FC5068C2743F49209B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

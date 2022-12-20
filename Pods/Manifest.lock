@@ -1,0 +1,21 @@
+PODS:
+  - Smartech-iOS-SDK (3.2.10)
+  - SmartPush-iOS-SDK (3.0.1)
+
+DEPENDENCIES:
+  - Smartech-iOS-SDK
+  - Smartech-iOS-SDK (~> 3.2.9)
+  - SmartPush-iOS-SDK (~> 3.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Smartech-iOS-SDK
+    - SmartPush-iOS-SDK
+
+SPEC CHECKSUMS:
+  Smartech-iOS-SDK: 9008b108dba07038823492c6306d8b10defcf53a
+  SmartPush-iOS-SDK: 40692d1a33f9dc9f6973b288194696a6dcddc6b3
+
+PODFILE CHECKSUM: cb2202bc314ea469ec0b243957852c6195e3c914
+
+COCOAPODS: 1.11.3
